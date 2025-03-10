@@ -105,7 +105,7 @@ end
 hit = {
     ["Default"] = game.ReplicatedStorage.b,
     ["Extended"] = game.ReplicatedStorage.b,
-	  ["T H I C K"] = game.ReplicatedStorage.GeneralHit,
+    ["T H I C K"] = game.ReplicatedStorage.GeneralHit,
     ["Squid"] = game.ReplicatedStorage.GeneralHit,
     ["Gummy"] = game.ReplicatedStorage.GeneralHit,
     ["RNG"] = game.ReplicatedStorage.GeneralHit,
