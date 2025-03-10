@@ -1,10 +1,10 @@
-local function GetGloveRemote()
+function GetGloveRemote()
     task.wait()
     repeat task.wait() until game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("leaderstats") and game.Players.LocalPlayer.leaderstats:FindFirstChild("Glove")
     task.wait()
     return hit[game.Players.LocalPlayer.leaderstats.Glove.Value]
 end
-local function EquipGlove(glove, time)
+function EquipGlove(glove, time)
     glove = glove or "Default"
     time = time or 0.4
     task.wait()
@@ -18,7 +18,7 @@ local function EquipGlove(glove, time)
         end
     end
 end
-local function EnterPortal(portal, time)
+function EnterPortal(portal, time)
     portal = portal or "Teleport1"
     time = time or 0.8
     task.wait()
@@ -34,7 +34,7 @@ local function EnterPortal(portal, time)
         task.wait(time)
     end
 end
-local function ClickButton(button, time)
+function ClickButton(button, time)
     textbutton = button
     time = time or 1
     task.wait()
@@ -48,7 +48,7 @@ local function ClickButton(button, time)
         task.wait(time)
     end
 end
-local function GetNPC(npc)
+function GetNPC(npc)
     npc = npc or "Replica"
     task.wait()
     repeat task.wait() until workspace
